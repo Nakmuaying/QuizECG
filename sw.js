@@ -1,4 +1,4 @@
-const CACHE = "quiz-ecg-c829524491";
+const CACHE = "quiz-ecg-f80bd51466";
 const FILES = ["./", "index.html", "manifest.webmanifest", "icon.svg"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
